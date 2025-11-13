@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>teamX To‑Do (Demo)</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>teamX — To‑Do Demo</h1>
+      <p class="lead">A tiny collaborative demo app (static).</p>
+    </header>
+
+    <main>
+      <section id="app">
+        <form id="new-item-form">
+          <input id="new-item" placeholder="Add a task" autocomplete="off" />
+          <button type="submit">Add</button>
+        </form>
+
+        <ul id="list" aria-live="polite"></ul>
+      </section>
+    </main>
+
+    <footer>
+      <small>Created as a minimal scaffold for teamX-copilot-project.</small>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
